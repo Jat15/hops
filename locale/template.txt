@@ -1,0 +1,10 @@
+#
+#	template.txt
+#
+#	by Jat
+#
+
+Hops Seeds =
+Hops cone =
+Crude beer mix =
+Fine beer mix =

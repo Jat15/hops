@@ -1,5 +1,12 @@
+local S
+if intllib then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
+
 minetest.register_craftitem("hops:hops_seed", {
-	description = "Hops Seeds",
+	description = S("Hops Seeds"),
 	inventory_image = "hops_hops_seed.png",
 	on_place = function(itemstack, placer, pointed_thing)
 		local above = minetest.env:get_node(pointed_thing.above)
@@ -68,17 +75,17 @@ minetest.register_node("hops:hops", {
 })
 
 minetest.register_craftitem("hops:hops_cone", {
-	description = "Hops cone",
+	description = S("Hops cone"),
 	inventory_image = "hops_hops_cone.png",
 })
 
 minetest.register_craftitem("hops:hops_crude_beer_mix", {
-	description = "Crude beer mix",
+	description = S("Crude beer mix"),
 	inventory_image = "hops_hops_crude_mix.png",
 })
 
 minetest.register_craftitem("hops:hops_fine_beer_mix", {
-	description = "Fine beer mix",
+	description = S("Fine beer mix"),
 	inventory_image = "hops_hops_fine_mix.png",
 })
 

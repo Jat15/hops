@@ -1,0 +1,10 @@
+#
+#	fr.txt
+#
+#	par Jat
+#
+
+Hops Seeds = Graines de houblon
+Hops cone = Cône de houblon
+Crude beer mix = Mélange brute de bière
+Fine beer mix = Mélange raffiné de bière
