@@ -107,7 +107,7 @@ minetest.register_craft({
 
 -- Link farming_plus
 
-farming:add_plant("hops:hops", {"hops:hops_1", "hops:hops_2"}, 50, 20)
+farming.add_plant("hops:hops", {"hops:hops_1", "hops:hops_2"}, 50, 20)
 farming.seeds["hops:hops_seed"] = 60
 
 -- Fuel
