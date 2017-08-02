@@ -1,5 +1,5 @@
 local S
-if intllib then
+if minetest.get_modpath("intllib") then
 	S = intllib.Getter()
 else
 	S = function(s) return s end
